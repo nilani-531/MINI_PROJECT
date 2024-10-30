@@ -1,0 +1,32 @@
+.home-container {
+    height: 100vh; /* Full page height */
+    background-image: url('./assets/images/chair.jpg'); /* Relative path */
+    background-size: cover; /* Ensures the image covers the full page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 1, 11); /* Optional: Text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional: Adds shadow to the text */
+}
+
+.home-buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(8, 106, 50, 0.3); /* Semi-transparent button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darker on hover */
+}

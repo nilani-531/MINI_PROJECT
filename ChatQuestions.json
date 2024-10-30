@@ -1,0 +1,376 @@
+[
+    {
+      "question": "What is 15% of 200?",
+      "answer": "15% of 200 is calculated as (15/100) * 200 = 30. The other options (25, 35, and 40) do not satisfy the percentage calculation. Therefore, the correct answer is 30."
+    },
+    {
+      "question": "What is the sum of 5 and 7?",
+      "answer": "The sum of 5 and 7 is 5 + 7 = 12. The other options (10, 11, and 13) are incorrect sums of 5 and 7. Thus, the correct answer is 12."
+    },
+    {
+      "question": "What is the area of a rectangle with length 5 and width 4?",
+      "answer": "Area is calculated as length * width, which is 5 * 4 = 20. The other options (15, 25, and 30) do not result from the product of 5 and 4. Hence, the correct answer is 20."
+    },
+    {
+      "question": "If a train travels 90 km in 1 hour, how far will it travel in 3 hours?",
+      "answer": "The distance is calculated by speed * time, so 90 km/h * 3 h = 270 km. The other options (180 km, 90 km, and 240 km) do not reflect the correct multiplication. Therefore, the correct answer is 270 km."
+    },
+    {
+      "question": "If all roses are flowers, and some flowers fade quickly, can we conclude that some roses fade quickly?",
+      "answer": "We cannot conclude that some roses fade quickly since the statement does not specify if the roses are among those that fade quickly. This ambiguity leads to the conclusion of 'Cannot be determined.'"
+    },
+    {
+      "question": "In a certain code, 'CAT' is written as '3120'. How will 'DOG' be written in that code?",
+      "answer": "'DOG' corresponds to the numbers assigned to its letters in the code. D=4, O=15, G=7, thus 'DOG' is 415. The other options do not correspond to the letter values. So, the correct answer is 415."
+    },
+    {
+      "question": "What is the next number in the series: 2, 4, 8, 16?",
+      "answer": "The series doubles each time: 2 * 2 = 4, 4 * 2 = 8, and 8 * 2 = 16. Following this pattern, the next number is 16 * 2 = 32. Therefore, the correct answer is 32."
+    },
+    {
+      "question": "How many times can you subtract 10 from 100?",
+      "answer": "You can only subtract 10 from 100 once before it is no longer 100. After the first subtraction, the number becomes 90. Therefore, the correct answer is 1."
+    },
+    {
+      "question": "If a pie chart shows that 40% of students like Math, what fraction is this?",
+      "answer": "40% is equivalent to 40/100, which simplifies to 2/5. The other options do not correctly represent this fraction. Hence, the correct answer is 2/5."
+    },
+    {
+      "question": "If 60% of a class passed an exam, how many students failed if there are 50 students?",
+      "answer": "If 60% passed, then 40% failed. Therefore, 40% of 50 students is 0.4 * 50 = 20. The other options do not reflect the correct calculation. Thus, the correct answer is 20."
+    },
+    {
+      "question": "What is the percentage increase if a price goes from $50 to $75?",
+      "answer": "Percentage increase is calculated as ((New Price - Old Price) / Old Price) * 100. Here, it is ((75 - 50) / 50) * 100 = 50%. The other options do not correctly represent the increase. Therefore, the correct answer is 50%."
+    },
+    {
+      "question": "If a store sells 30 apples and 20 are red, what percentage are red?",
+      "answer": "To find the percentage, use the formula (Number of Red Apples / Total Apples) * 100. Thus, (20 / 30) * 100 = 66.67%, which rounds to 60%. The other options are incorrect. Hence, the correct answer is 60%."
+    },
+    {
+      "question": "What is the time complexity of accessing an element in an array?",
+      "answer": "The time complexity for accessing an element in an array is O(1), meaning it takes constant time regardless of the array size. The other options reflect incorrect time complexities for this operation. Therefore, the correct answer is O(1)."
+    },
+    {
+      "question": "Which data structure uses LIFO?",
+      "answer": "LIFO stands for Last In, First Out, which is characteristic of a stack. Queues use FIFO (First In, First Out), while arrays and linked lists do not inherently define an access order. Thus, the correct answer is Stack."
+    },
+    {
+      "question": "What is a hash table?",
+      "answer": "A hash table is a data structure that stores data in key-value pairs, allowing for efficient data retrieval. The other options do not accurately define a hash table. Hence, the correct answer is 'A data structure that stores data in a key-value pair.'"
+    },
+    {
+      "question": "What is the space complexity of a linked list with n nodes?",
+      "answer": "The space complexity of a linked list with n nodes is O(n) because each node occupies a constant amount of space, leading to a linear growth in space usage. The other options do not reflect the correct complexity. Therefore, the correct answer is O(n)."
+    },
+    {
+      "question": "Which algorithm is used for sorting?",
+      "answer": "Bubble Sort is a simple sorting algorithm that compares adjacent elements and swaps them if they are in the wrong order. The other options are algorithms used for different purposes. Thus, the correct answer is Bubble Sort."
+    },
+    {
+      "question": "What does 'in-order traversal' of a binary search tree yield?",
+      "answer": "In-order traversal of a binary search tree yields a sorted order of elements, as it visits nodes in a left-root-right sequence. The other options do not describe the result of in-order traversal. Therefore, the correct answer is 'Sorted order of elements.'"
+    },
+    {
+      "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+      "answer": "Dijkstra's Algorithm is specifically designed to find the shortest path in graphs with non-negative weights. The other options are not applicable for finding shortest paths. Thus, the correct answer is Dijkstra's Algorithm."
+    },
+    {
+      "question": "What is the primary use of a trie?",
+      "answer": "A trie is primarily used for storing strings to allow for quick search operations based on prefixes. The other options do not accurately represent the main use of a trie. Therefore, the correct answer is 'Storing strings for quick search.'"
+    },
+    {
+      "question": "What are the four main principles of OOP?",
+      "answer": "The four main principles of Object-Oriented Programming are Abstraction, Encapsulation, Inheritance, and Polymorphism. The other options do not capture these principles accurately. Thus, the correct answer is 'Abstraction, Encapsulation, Inheritance, Polymorphism.'"
+    },
+    {
+      "question": "What is encapsulation?",
+      "answer": "Encapsulation refers to hiding the internal state of an object and exposing only what is necessary. The other options do not describe encapsulation accurately. Therefore, the correct answer is 'Hiding the internal state of an object.'"
+    },
+    {
+      "question": "Which of the following is not a feature of OOP?",
+      "answer": "Compilation is not a feature of Object-Oriented Programming, while encapsulation, inheritance, and polymorphism are key features. The other options are characteristics of OOP. Hence, the correct answer is Compilation."
+    },
+    {
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism is the ability of different objects to respond to the same function or method in different ways. The other options do not define polymorphism correctly. Thus, the correct answer is 'Ability to take many forms.'"
+    },
+    {
+      "question": "What is the difference between a class and an object?",
+      "answer": "A class is a blueprint for creating objects, defining properties and behaviors, while an object is an instance of a class. The other options confuse the roles of classes and objects. Therefore, the correct answer is 'A class is a blueprint, an object is an instance.'"
+    },
+    {
+      "question": "What is a constructor in OOP?",
+      "answer": "A constructor is a special method used to initialize objects when they are created. The other options do not accurately describe the purpose of a constructor. Hence, the correct answer is 'A method for initializing objects.'"
+    },
+    {
+      "question": "What is inheritance in OOP?",
+      "answer": "Inheritance is a mechanism by which one class can inherit properties and methods from another class, promoting code reuse. The other options do not capture the essence of inheritance. Therefore, the correct answer is 'Mechanism for code reuse.'"
+    },
+    {
+      "question": "What is an abstract class?",
+      "answer": "An abstract class is a class that cannot be instantiated on its own and must be subclassed, often containing abstract methods that must be implemented by derived classes. The other options do not accurately describe an abstract class. Thus, the correct answer is 'Cannot be instantiated, must be subclassed.'"
+    },
+    {
+      "question": "What is a database?",
+      "answer": "A database is an organized collection of data that can be easily accessed, managed, and updated. The other options do not correctly define a database. Therefore, the correct answer is 'An organized collection of data.'"
+    },
+    {
+      "question": "What is SQL used for?",
+      "answer": "SQL (Structured Query Language) is used for managing and manipulating relational databases. The other options do not correctly represent the purpose of SQL. Hence, the correct answer is 'Managing and manipulating relational databases.'"
+    },
+    {
+      "question": "What is normalization in databases?",
+      "answer": "Normalization is the process of organizing data to minimize redundancy and improve data integrity. The other options do not capture the definition of normalization. Therefore, the correct answer is 'Organizing data to minimize redundancy.'"
+    },
+    {
+      "question": "What is a primary key in a database?",
+      "answer": "A primary key is a unique identifier for a record in a database table, ensuring that each record can be uniquely identified. The other options do not accurately define a primary key. Thus, the correct answer is 'Unique identifier for a record.'"
+    },
+    {
+      "question": "What is a foreign key in a database?",
+      "answer": "A foreign key is a field in a table that links to the primary key of another table, establishing a relationship between the two tables. The other options do not correctly describe a foreign key. Therefore, the correct answer is 'Links to the primary key of another table.'"
+    },
+    {
+      "question": "What is a JOIN in SQL?",
+      "answer": "JOIN is a SQL operation that combines records from two or more tables based on a related column. The other options do not accurately represent the function of a JOIN. Hence, the correct answer is 'Combines records from multiple tables.'"
+    },
+    {
+      "question": "What is the purpose of indexing in a database?",
+      "answer": "Indexing is used to speed up the retrieval of data from a database table by creating a data structure that allows for fast searches. The other options do not describe the purpose of indexing correctly. Therefore, the correct answer is 'Speeding up data retrieval.'"
+    },
+    {
+      "question": "What is the difference between a primary key and a unique key?",
+      "answer": "The primary key uniquely identifies a record and cannot be NULL, while a unique key also enforces uniqueness but can contain NULL values. The other options do not accurately capture the distinction. Thus, the correct answer is 'Primary key cannot be NULL, unique key can be.'"
+    },
+    {
+      "question": "What is cloud computing?",
+      "answer": "Cloud computing is the delivery of computing services over the internet, allowing for on-demand access to a shared pool of resources. The other options do not accurately define cloud computing. Hence, the correct answer is 'Delivery of computing services over the internet.'"
+    },
+    {
+      "question": "What is a web server?",
+      "answer": "A web server is a software or hardware that serves content to the web, responding to requests from clients (browsers). The other options do not correctly describe a web server. Therefore, the correct answer is 'Serves content to the web.'"
+    },
+    {
+      "question": "What is an API?",
+      "answer": "An API (Application Programming Interface) is a set of protocols that allow different software applications to communicate with each other. The other options do not accurately define an API. Thus, the correct answer is 'Set of protocols for software communication.'"
+    },
+    {
+      "question": "What is REST?",
+      "answer": "REST (Representational State Transfer) is an architectural style for designing networked applications that rely on stateless, client-server communication. The other options do not describe REST correctly. Therefore, the correct answer is 'Architectural style for networked applications.'"
+    },
+    {
+      "question": "What is the purpose of a firewall?",
+      "answer": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. The other options do not accurately reflect the purpose of a firewall. Thus, the correct answer is 'Monitors and controls network traffic.'"
+    },
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a subset of artificial intelligence that involves training algorithms to learn patterns from data and make predictions. The other options do not correctly define machine learning. Therefore, the correct answer is 'Subset of AI that learns from data.'"
+    },
+    {
+      "question": "What is supervised learning?",
+      "answer": "Supervised learning is a type of machine learning where the model is trained on labeled data, meaning both the input and the desired output are provided. The other options do not capture the essence of supervised learning. Thus, the correct answer is 'Model trained on labeled data.'"
+    },
+    {
+      "question": "What is unsupervised learning?",
+      "answer": "Unsupervised learning is a type of machine learning where the model is trained on data without labeled responses, focusing on discovering patterns or groupings in the data. The other options do not accurately define unsupervised learning. Therefore, the correct answer is 'Model trained on unlabeled data.'"
+    },
+    {
+      "question": "What is reinforcement learning?",
+      "answer": "Reinforcement learning is a type of machine learning where an agent learns to make decisions by taking actions in an environment to maximize cumulative reward. The other options do not reflect the nature of reinforcement learning. Thus, the correct answer is 'Agent learns by maximizing rewards.'"
+    },
+    {
+      "question": "What is overfitting in machine learning?",
+      "answer": "Overfitting occurs when a machine learning model learns the training data too well, including noise, resulting in poor generalization to new data. The other options do not accurately define overfitting. Therefore, the correct answer is 'Model learns noise in training data.'"
+    },
+    {
+      "question": "What is a neural network?",
+      "answer": "A neural network is a computational model inspired by the human brain, composed of interconnected nodes (neurons) that process data in layers. The other options do not accurately describe a neural network. Hence, the correct answer is 'Model inspired by the human brain.'"
+    },
+    {
+      "question": "What is deep learning?",
+      "answer": "Deep learning is a subset of machine learning that uses neural networks with many layers (deep neural networks) to learn from large amounts of data. The other options do not capture the essence of deep learning. Therefore, the correct answer is 'Subset of ML using deep neural networks.'"
+    },
+    {
+      "question": "What is natural language processing (NLP)?",
+      "answer": "Natural Language Processing (NLP) is a branch of AI that focuses on the interaction between computers and humans through natural language, enabling machines to understand and respond to text or speech. The other options do not accurately define NLP. Thus, the correct answer is 'Interaction between computers and human language.'"
+    },
+    {
+      "question": "What is the purpose of a loss function in machine learning?",
+      "answer": "The loss function measures the difference between the predicted output and the actual output, guiding the optimization of the model. The other options do not correctly represent the purpose of a loss function. Therefore, the correct answer is 'Measures difference between predicted and actual outputs.'"
+    },
+    {
+      "question": "What is a confusion matrix?",
+      "answer": "A confusion matrix is a table used to evaluate the performance of a classification model by summarizing the correct and incorrect predictions. The other options do not accurately describe a confusion matrix. Hence, the correct answer is 'Table summarizing model predictions.'"
+    },
+    {
+      "question": "What is a dataset?",
+      "answer": "A dataset is a collection of data, typically organized in a structured format, that can be used for analysis or training machine learning models. The other options do not accurately define a dataset. Thus, the correct answer is 'Collection of data for analysis.'"
+    },
+    {
+      "question": "What is feature engineering?",
+      "answer": "Feature engineering is the process of selecting, modifying, or creating features from raw data to improve the performance of machine learning models. The other options do not accurately describe feature engineering. Therefore, the correct answer is 'Selecting/modifying features for ML models.'"
+    },
+    {
+      "question": "What is the difference between classification and regression?",
+      "answer": "Classification predicts categorical labels, while regression predicts continuous values. The other options do not accurately capture the distinction between these two types of tasks. Hence, the correct answer is 'Classification predicts categories, regression predicts values.'"
+    },
+    {
+      "question": "What is cross-validation?",
+      "answer": "Cross-validation is a technique used to assess the generalizability of a model by splitting the data into training and validation sets multiple times. The other options do not accurately describe cross-validation. Thus, the correct answer is 'Technique to assess model generalizability.'"
+    },
+    {
+      "question": "What is ensemble learning?",
+      "answer": "Ensemble learning combines multiple models to improve the overall performance and robustness of predictions. The other options do not accurately describe ensemble learning. Therefore, the correct answer is 'Combining multiple models for better performance.'"
+    },
+    {
+      "question": "What is a hyperparameter in machine learning?",
+      "answer": "A hyperparameter is a parameter whose value is set before the learning process begins, influencing the training of the model. The other options do not accurately define a hyperparameter. Hence, the correct answer is 'Parameter set before training begins.'"
+    },
+    {
+      "question": "What is the purpose of regularization in machine learning?",
+      "answer": "Regularization is a technique used to prevent overfitting by adding a penalty for more complex models, encouraging simplicity. The other options do not accurately capture the purpose of regularization. Therefore, the correct answer is 'Prevents overfitting by penalizing complexity.'"
+    },
+    {
+      "question": "What is a support vector machine (SVM)?",
+      "answer": "A support vector machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks, which finds the optimal hyperplane to separate different classes. The other options do not accurately define SVM. Hence, the correct answer is 'Supervised algorithm for classification/regression.'"
+    },
+    {
+      "question": "What is a decision tree?",
+      "answer": "A decision tree is a flowchart-like structure used for making decisions based on a series of questions, commonly used in classification tasks. The other options do not accurately define a decision tree. Thus, the correct answer is 'Flowchart-like structure for decision making.'"
+    },
+    {
+      "question": "What is the purpose of a data pipeline?",
+      "answer": "A data pipeline is a series of processes for collecting, processing, and storing data, ensuring smooth data flow from source to destination. The other options do not accurately define a data pipeline. Therefore, the correct answer is 'Series of processes for data flow.'"
+    },
+    {
+      "question": "What is big data?",
+      "answer": "Big data refers to extremely large datasets that cannot be easily managed, processed, or analyzed with traditional methods. The other options do not accurately define big data. Hence, the correct answer is 'Extremely large datasets beyond traditional processing.'"
+    },
+    {
+      "question": "What is data mining?",
+      "answer": "Data mining is the process of discovering patterns and knowledge from large amounts of data, often using techniques from machine learning and statistics. The other options do not accurately describe data mining. Therefore, the correct answer is 'Discovering patterns from large data sets.'"
+    },
+    {
+      "question": "What is a data warehouse?",
+      "answer": "A data warehouse is a centralized repository for storing large amounts of structured data from multiple sources, designed for reporting and analysis. The other options do not accurately define a data warehouse. Thus, the correct answer is 'Centralized repository for large structured data.'"
+    },
+    {
+      "question": "What is data visualization?",
+      "answer": "Data visualization is the graphical representation of information and data, using visual elements like charts and graphs to communicate insights. The other options do not accurately define data visualization. Hence, the correct answer is 'Graphical representation of information.'"
+    },
+    {
+      "question": "What is an operating system?",
+      "answer": "An operating system is system software that manages computer hardware and software resources and provides common services for computer programs. The other options do not accurately describe an operating system. Therefore, the correct answer is 'Manages computer hardware and software resources.'"
+    },
+    {
+      "question": "What is a process in operating systems?",
+      "answer": "A process is a program in execution, which includes the program code and its current activity. The other options do not accurately define a process. Thus, the correct answer is 'Program in execution.'"
+    },
+    {
+      "question": "What is multithreading?",
+      "answer": "Multithreading is a programming technique that allows multiple threads to exist within the context of a single process, enabling concurrent execution. The other options do not accurately describe multithreading. Therefore, the correct answer is 'Multiple threads in a single process.'"
+    },
+    {
+      "question": "What is a deadlock?",
+      "answer": "A deadlock is a situation in which two or more processes cannot proceed because each is waiting for the other to release resources. The other options do not accurately define a deadlock. Hence, the correct answer is 'Processes waiting for each other to release resources.'"
+    },
+    {
+      "question": "What is virtualization?",
+      "answer": "Virtualization is the creation of virtual versions of physical resources, such as servers or storage devices, allowing for efficient resource utilization. The other options do not accurately describe virtualization. Therefore, the correct answer is 'Creating virtual versions of physical resources.'"
+    },
+    {
+      "question": "What is the purpose of a debugger?",
+      "answer": "A debugger is a tool used to test and debug programs by allowing developers to step through the code, inspect variables, and find errors. The other options do not accurately define the purpose of a debugger. Thus, the correct answer is 'Tool for testing and debugging programs.'"
+    },
+    {
+      "question": "What is version control?",
+      "answer": "Version control is a system that records changes to files or sets of files over time, allowing for tracking revisions and collaboration. The other options do not accurately define version control. Therefore, the correct answer is 'System for tracking changes to files.'"
+    },
+    {
+      "question": "What is an algorithm?",
+      "answer": "An algorithm is a step-by-step procedure for solving a problem or accomplishing a task, often used in programming and data processing. The other options do not accurately define an algorithm. Hence, the correct answer is 'Step-by-step procedure for solving a problem.'"
+    },
+    {
+      "question": "What is a data structure?",
+      "answer": "A data structure is a specialized format for organizing and storing data in a computer, allowing for efficient access and modification. The other options do not accurately define a data structure. Therefore, the correct answer is 'Specialized format for organizing data.'"
+    },
+    {
+      "question": "What is recursion?",
+      "answer": "Recursion is a programming technique where a function calls itself in order to solve a problem, often breaking it down into simpler subproblems. The other options do not accurately describe recursion. Thus, the correct answer is 'Function calls itself to solve a problem.'"
+    },
+    {
+      "question": "What is a linked list?",
+      "answer": "A linked list is a linear data structure where each element (node) points to the next, allowing for efficient insertion and deletion. The other options do not accurately define a linked list. Therefore, the correct answer is 'Linear data structure with nodes pointing to next.'"
+    },
+    {
+      "question": "What is a stack?",
+      "answer": "A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, where the last added element is the first to be removed. The other options do not accurately define a stack. Hence, the correct answer is 'LIFO data structure for managing data.'"
+    },
+    {
+      "question": "What is a queue?",
+      "answer": "A queue is a linear data structure that follows the First In, First Out (FIFO) principle, where the first added element is the first to be removed. The other options do not accurately define a queue. Therefore, the correct answer is 'FIFO data structure for managing data.'"
+    },
+    {
+      "question": "What is a binary tree?",
+      "answer": "A binary tree is a hierarchical data structure in which each node has at most two children, commonly used in searching and sorting algorithms. The other options do not accurately define a binary tree. Thus, the correct answer is 'Hierarchical data structure with at most two children per node.'"
+    },
+    {
+      "question": "What is a hash table?",
+      "answer": "A hash table is a data structure that implements an associative array, using a hash function to compute an index into an array of buckets or slots. The other options do not accurately define a hash table. Therefore, the correct answer is 'Data structure implementing an associative array.'"
+    },
+    {
+      "question": "What is sorting?",
+      "answer": "Sorting is the process of arranging data in a specific order, either ascending or descending, based on a comparison operator. The other options do not accurately define sorting. Hence, the correct answer is 'Arranging data in a specific order.'"
+    },
+    {
+      "question": "What is searching?",
+      "answer": "Searching is the process of finding a specific item in a data structure, often involving algorithms to locate the item efficiently. The other options do not accurately define searching. Therefore, the correct answer is 'Finding a specific item in data.'"
+    },
+    {
+      "question": "What is a linear search?",
+      "answer": "A linear search is a simple search algorithm that checks each element in a list sequentially until the desired element is found. The other options do not accurately define a linear search. Hence, the correct answer is 'Checking each element sequentially in a list.'"
+    },
+    {
+      "question": "What is a binary search?",
+      "answer": "A binary search is an efficient search algorithm that finds the position of a target value by repeatedly dividing the search interval in half. The other options do not accurately define a binary search. Therefore, the correct answer is 'Efficient algorithm for finding target by dividing search interval in half.'"
+    },
+    {
+      "question": "What is the purpose of a cache?",
+      "answer": "A cache is a hardware or software component that stores data so future requests for that data can be served faster, improving overall performance. The other options do not accurately define the purpose of a cache. Hence, the correct answer is 'Stores data for faster future access.'"
+    },
+    {
+      "question": "What is a cloud computing?",
+      "answer": "Cloud computing is the delivery of computing services over the internet, enabling on-demand access to shared resources and data storage. The other options do not accurately define cloud computing. Therefore, the correct answer is 'Delivery of computing services over the internet.'"
+    },
+    {
+      "question": "What is a client-server architecture?",
+      "answer": "Client-server architecture is a distributed computing model where a client requests resources or services from a server, which processes the request. The other options do not accurately define client-server architecture. Hence, the correct answer is 'Distributed model with clients requesting services from servers.'"
+    },
+    {
+      "question": "What is a microservice?",
+      "answer": "A microservice is an architectural style that structures an application as a collection of small, loosely coupled services, which can be developed and deployed independently. The other options do not accurately define a microservice. Therefore, the correct answer is 'Small, independent services in an application architecture.'"
+    },
+    {
+      "question": "What is a REST API?",
+      "answer": "A REST API is an architectural style for designing networked applications, allowing different systems to communicate over HTTP using standard methods like GET, POST, PUT, and DELETE. The other options do not accurately define a REST API. Thus, the correct answer is 'Architectural style for designing networked applications.'"
+    },
+    {
+      "question": "What is a graph database?",
+      "answer": "A graph database is a database that uses graph structures for semantic queries, with nodes representing entities and edges representing relationships. The other options do not accurately define a graph database. Therefore, the correct answer is 'Database using graph structures for semantic queries.'"
+    },
+    {
+      "question": "What is SQL?",
+      "answer": "SQL (Structured Query Language) is a standardized programming language used for managing and manipulating relational databases. The other options do not accurately define SQL. Hence, the correct answer is 'Standardized language for managing relational databases.'"
+    },
+    {
+      "question": "What is NoSQL?",
+      "answer": "NoSQL is a category of database management systems that do not use SQL as their primary interface and are designed for handling large volumes of unstructured or semi-structured data. The other options do not accurately define NoSQL. Therefore, the correct answer is 'Database systems not using SQL for management.'"
+    },
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a subset of artificial intelligence that involves the development of algorithms that enable computers to learn from and make predictions based on data. The other options do not accurately define machine learning. Thus, the correct answer is 'Subset of AI for learning from data.'"
+    }
+  ]
+  
+  

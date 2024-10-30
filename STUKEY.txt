@@ -1,0 +1,126 @@
+import React, { useState, useEffect } from 'react';
+import { fetchRandomQuestions, getQuizResults } from '../services/quizService'; 
+import { getUserDetails } from '../services/authService'; 
+import { Link } from 'react-router-dom'; 
+import '../styles/Dashboard.css'; 
+import { fetchQuizzesByKeyword } from '../services/quizService'; // Adjust the import based on your structure
+import { useNavigate } from 'react-router-dom';
+
+
+
+const StudentDashboard = () => {
+    const [quizzes, setQuizzes] = useState([]);
+    const [results, setResults] = useState([]);
+    const { name: userName, role: userRole } = getUserDetails();
+    const [searchKeyword, setSearchKeyword] = useState('');
+    const [message, setMessage] = useState('');
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        const loadQuizzes = async () => {
+            try {
+                const result = await fetchRandomQuestions();
+                setQuizzes(result);
+            } catch (error) {
+                console.error('Error fetching quizzes:', error);
+            }
+        };
+
+        const fetchResults = async () => {
+            try {
+                const userId = localStorage.getItem('userId'); // Ensure userId is in localStorage
+                const fetchedResults = await getQuizResults(userId);
+                setResults(fetchedResults);
+            } catch (error) {
+                console.error('Error fetching quiz results:', error);
+            }
+        };
+
+        loadQuizzes();
+        fetchResults();
+    }, []);
+    // Function to handle search
+    const handleSearch = async () => {
+        if (!searchKeyword) {
+            setMessage('Please enter a keyword to search.');
+            return;
+        }
+
+        try {
+            console.log('Searching for keyword:', searchKeyword); // Add log
+            const fetchedQuiz = await fetchQuizzesByKeyword(searchKeyword);
+
+            console.log('Fetched quiz:', fetchedQuiz); // Log the fetched quiz
+
+            // Check if fetched quiz is valid
+            if (fetchedQuiz && fetchedQuiz.keyword === searchKeyword) {
+                setMessage('Are you ready to take the quiz?');
+                // Redirect after 5 seconds
+                setTimeout(() => {
+                    navigate(`/start-quiz/${fetchedQuiz.keyword}`); // Ensure keyword is passed correctly
+                }, 5000);
+            } else {
+                setMessage('Invalid keyword. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error fetching quizzes:', error);
+            setMessage('Error fetching quizzes. Please try again.');
+        }
+    };
+
+    return (
+        <div className="dashboard-container">
+            <div className="dashboard-header">
+                <h1>Welcome, {userName || 'Student'}!</h1>
+                <h2>Role: {userRole || 'Role not defined'}</h2>
+            </div>
+
+            <div className="quiz-list">
+                {quizzes.length === 0 ? (
+                    <p>No quizzes found.</p>
+                ) : (
+                    <p>You have {quizzes.length} quizzes available.</p>
+                )}
+            </div>
+            <div className="search-container">
+                <input
+                    type="text"
+                    placeholder="Enter keyword to search for quizzes"
+                    value={searchKeyword}
+                    onChange={(e) => setSearchKeyword(e.target.value)}
+                    style={{ textAlign: 'center' }} // Center the text input
+                />
+                <button onClick={handleSearch}>Search</button>
+                {message && <p>{message}</p>} {/* Show messages */}
+            </div>
+
+            <div className="quiz-results">
+                <h2>Your Quiz Results</h2>
+                {results.length === 0 ? (
+                    <p>No quiz results found.</p>
+                ) : (
+                    results.map(result => {
+                        const quizDate = new Date(result.completedAt); // Create a Date object from completedAt
+                        const formattedDate = quizDate.toLocaleDateString('en-US'); // Format the date
+
+                        return (
+                            <div key={result._id} className="result-item">
+                                <h3>Topic: {result.topicName}</h3> {/* Show topic name */}
+                                <p>Score: {result.score}/{result.totalQuestions}</p>
+                                <p>Date: {formattedDate}</p> {/* Show the formatted date */}
+                            </div>
+                        );
+                    })
+                )}
+            </div>
+
+            <div className="take-quiz-container">
+                <Link to="/take-quiz" className="take-quiz-button">
+                    <button className="btn">Take Quiz</button>
+                </Link>
+            </div>
+        </div>
+    );
+};
+
+export default StudentDashboard;

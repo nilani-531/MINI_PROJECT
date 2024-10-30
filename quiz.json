@@ -1,0 +1,165 @@
+{
+  "categories": [
+    {
+      "categoryName": "Aptitude & Logical Reasoning",
+      "topics": [
+        {
+          "topicName": "Numerical Ability",
+          "questions": [
+            {
+              "questionText": "What is 15% of 200?",
+              "options": ["25", "30", "35", "40"],
+              "correctAnswer": "30"
+            },
+            {
+              "questionText": "What is the sum of 5 and 7?",
+              "options": ["10", "11", "12", "13"],
+              "correctAnswer": "12"
+            },
+            {
+              "questionText": "What is the area of a rectangle with length 5 and width 4?",
+              "options": ["20", "15", "25", "30"],
+              "correctAnswer": "20"
+            },
+{
+              "questionText": "If a train travels 90 km in 1 hour, how far will it travel in 3 hours?",
+              "options": ["180 km", "270 km", "90 km", "240 km"],
+              "correctAnswer": "270 km"
+            }
+          ]
+        },
+        {
+          "topicName": "Logical Reasoning",
+          "questions": [
+            {
+              "questionText": "If all roses are flowers, and some flowers fade quickly, can we conclude that some roses fade quickly?",
+              "options": ["Yes", "No", "Cannot be determined"],
+              "correctAnswer": "Cannot be determined"
+            },
+            {
+              "questionText": "In a certain code, 'CAT' is written as '3120'. How will 'DOG' be written in that code?",
+              "options": ["415", "764", "124", "414"],
+              "correctAnswer": "415"
+            },
+            {
+              "questionText": "What is the next number in the series: 2, 4, 8, 16?",
+              "options": ["24", "32", "48", "64"],
+              "correctAnswer": "32"
+            },
+            {
+              "questionText": "How many times can you subtract 10 from 100?",
+              "options": ["10", "1", "9", "0"],
+              "correctAnswer": "1"
+            }
+          ]
+        },
+        {
+          "topicName": "Data Interpretation",
+          "questions": [
+            {
+              "questionText": "If a pie chart shows that 40% of students like Math, what fraction is this?",
+              "options": ["1/2", "2/5", "3/5", "4/5"],
+              "correctAnswer": "2/5"
+            },
+            {
+              "questionText": "If 60% of a class passed an exam, how many students failed if there are 50 students?",
+              "options": ["20", "15", "25", "10"],
+              "correctAnswer": "20"
+            },
+            {
+              "questionText": "What is the percentage increase if a price goes from $50 to $75?",
+              "options": ["25%", "50%", "40%", "60%"],
+              "correctAnswer": "50%"
+            },
+            {
+              "questionText": "If a store sells 30 apples and 20 are red, what percentage are red?",
+              "options": ["40%", "60%", "50%", "30%"],
+              "correctAnswer": "60%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "Programming & Technical",
+      "topics": [
+        {
+          "topicName": "Data Structures",
+          "questions": [
+            {
+              "questionText": "What is the time complexity of accessing an element in an array?",
+              "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+              "correctAnswer": "O(1)"
+            },
+            {
+              "questionText": "Which data structure uses LIFO?",
+              "options": ["Queue", "Stack", "Array", "Linked List"],
+              "correctAnswer": "Stack"
+            },
+            {
+              "questionText": "What is a hash table?",
+              "options": ["A data structure that stores data in a key-value pair", "A type of linked list", "A type of binary tree", "A linear data structure"],
+              "correctAnswer": "A data structure that stores data in a key-value pair"
+            },
+            {
+              "questionText": "What is the space complexity of a linked list with n nodes?",
+              "options": ["O(1)", "O(n)", "O(n^2)", "O(log n)"],
+              "correctAnswer": "O(n)"
+            }
+          ]
+        },
+        {
+          "topicName": "Algorithms",
+          "questions": [
+            {
+              "questionText": "Which algorithm is used for sorting?",
+              "options": ["Dijkstra's Algorithm", "Depth First Search", "Bubble Sort", "Prim's Algorithm"],
+              "correctAnswer": "Bubble Sort"
+            },
+            {
+              "questionText": "What does 'in-order traversal' of a binary search tree yield?",
+              "options": ["Sorted order of elements", "Reverse sorted order of elements", "Unsorted order", "None of the above"],
+              "correctAnswer": "Sorted order of elements"
+            },
+            {
+              "questionText": "Which algorithm is used to find the shortest path in a weighted graph?",
+              "options": ["Dijkstra's Algorithm", "Bubble Sort", "Quick Sort", "Merge Sort"],
+              "correctAnswer": "Dijkstra's Algorithm"
+            },
+            {
+              "questionText": "What is the primary use of a trie?",
+              "options": ["Storing integers", "Storing strings for quick search", "Storing binary data", "None of the above"],
+              "correctAnswer": "Storing strings for quick search"
+            }
+          ]
+        },
+        {
+          "topicName": "Object Oriented Programming",
+          "questions": [
+            {
+              "questionText": "What are the four main principles of OOP?",
+              "options": ["Abstraction, Encapsulation, Inheritance, Polymorphism", "Classes, Objects, Methods, Attributes", "Modules, Packages, Functions, Classes", "None of the above"],
+              "correctAnswer": "Abstraction, Encapsulation, Inheritance, Polymorphism"
+            },
+            {
+              "questionText": "What is encapsulation?",
+              "options": ["Hiding the internal state of an object", "Inheriting properties from a parent class", "Creating new classes from existing ones", "None of the above"],
+              "correctAnswer": "Hiding the internal state of an object"
+            },
+            {
+              "questionText": "Which of the following is not a feature of OOP?",
+              "options": ["Encapsulation", "Inheritance", "Polymorphism", "Compilation"],
+              "correctAnswer": "Compilation"
+            },
+            
+            {
+              "questionText": "What is polymorphism?",
+              "options": ["Ability to take many forms", "Combining different objects", "Separation of concerns", "None of the above"],
+              "correctAnswer": "Ability to take many forms"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
